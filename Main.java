@@ -37,7 +37,7 @@ public class Main {
                 fw.write("Нет верных ip адресов");
             }
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            System.out.println(e.Message());
         }
     }
 }
